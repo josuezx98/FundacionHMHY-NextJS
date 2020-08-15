@@ -277,7 +277,7 @@ const Psicodrama = () => {
      <Fade bottom>
        <Box className={classes.finish}>
            <Box className={classes.finishcontent}>
-                 <Typography variant="h3" color="default" className={classes.titlesectionCurso}>
+                 <Typography align='center' variant="h3" color="default" className={classes.titlesectionCurso}>
                      Al acabar el curso
                  </Typography>
                  <Typography align='left' variant="subtitle1" color="initial" className={classes.objetivo}>
