@@ -28,6 +28,7 @@ const useStyles = makeStyles(theme => ({
           mozBoxShadow: '0px 0px 12px 5px rgba(0,0,0,0.30)',
           boxShadow: '0px 0px 8px 5px rgba(0,0,0,0.30)',
           padding:5,
+          margin: 15,
           '@media (max-width:600px)': {
             margin:30,
         },
@@ -76,7 +77,7 @@ return(
           />
           <SectionFirst
             title='Como funciona'
-            description='En Terapeu, conectamos a personas con psicólogos. Las sesiones se llevan a cabo en forma online para mayor comodidad y privacidad. Estamos convencidos de que hacer terapia funciona y puede ayudar a mucha gente!'
+            description='Nos especializamos en el desarrollo y perfeccionamiento profesional – donde quiera que estés, a cualquier hora.'
           />
           <SectionImage
             title='Aprende sin límites y a tu propio ritmo'
@@ -99,7 +100,7 @@ return(
               <Box align='center' className={classes.contenedorTextoSections}>
                   <Box className={classes.sections}>
                       {sections.map((section) => (
-                        <Box className={classes.section}>
+                      <Box className={classes.section}>
                         <img src={section.img} alt='ahre' className={classes.imgedu}/>
                         <Typography variant="h6" color="initial">
                           {section.name}

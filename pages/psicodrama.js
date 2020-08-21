@@ -183,7 +183,7 @@ const Psicodrama = () => {
        side={true}
      />
      <SectionImage
-       title='Arteterapia en los niños'
+       title='El cuerpo en accion'
        description='En el Psicodrama interviene el cuerpo en acción e interacción con otros. A través de la acción se van poniendo en escena el pasado, el presente o el futuro, lo vivido, lo imaginado o fantaseado, teniendo la posibilidad de vivirlo desde el aquí y el ahora, con todas las emociones y sentimientos que aparecen ante la situación que se está abordando.'
        img='psicodos.jpg'
        side={false}

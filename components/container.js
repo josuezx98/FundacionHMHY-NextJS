@@ -6,7 +6,7 @@ import Footer from './footer';
 const Container = ({children}) => (
 <div>
   <Head>
-      <title>Psicoterapia</title>
+      <title>Help Me Help You</title>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
   </Head>
   <Navigation/>

@@ -59,7 +59,7 @@ const Home = () => {
   ];
 
   const steps = [
-    {num:'1', description:'Contá con nosotros para lo que necesites durante toda la duración del tratamiento.'},
+    {num:'1', description:'Manda un whats app con la palabra consulta'},
     {num:'2', description:'Un psicólogo te contacta para entender tu consulta en una entrevista inicial gratuita.'},
     {num:'3', description:'Pagás la siguiente sesión por medios electrónicos.'},
     {num:'4', description:'Empezás terapia por videollamada con tu psicólogo.'},
@@ -74,7 +74,7 @@ const Home = () => {
           />
           <SectionFirst
           title='Sobre Help Me Help You'
-          description='En Terapeu, conectamos a personas con psicólogos. Las sesiones se llevan a cabo en forma online para mayor comodidad y privacidad. Estamos convencidos de que hacer terapia funciona y puede ayudar a mucha gente!'
+          description='En Help Me Help You, conectamos a personas con psicólogos. Las sesiones se llevan a cabo en forma online para mayor comodidad y privacidad. Estamos convencidos de que hacer terapia funciona y puede ayudar a mucha gente!'
           />
           <Fade bottom>
             <Box align='center' className={classes.contenedorTextoSections}>
